@@ -1,0 +1,38 @@
+{
+  "name": "press-kss",
+  "version": "0.0.0",
+  "description": "Parse KSS formatted sass documentation and add it to Press",
+  "private": true,
+  "homepage": "https://github.com/paulcpederson/press-kss",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulcpederson/press-kss.git"
+  },
+  "author": {
+    "name": "Paul C Pederson",
+    "email": "<ppederson@esri.com>",
+    "url": "paulcpederson.com"
+  },
+  "main": "main.js",
+  "contributors": [
+    {
+      "name": "Patrick Arlt",
+      "email": "parlt@esri.com"
+    },
+    {
+      "name": "Paul Pederson",
+      "email": "ppederson@esri.com"
+    }
+  ],
+  "license": "Apache 2.0",
+  "bugs": {
+    "url": "https://github.com/paulcpederson/press-kss/issues"
+  },
+  "dependencies": {
+    "lodash": "~2.4.1",
+    "minimatch": "~0.3.0"
+  },
+  "devDependencies": {
+    "kss": "^1.0.0"
+  }
+}
