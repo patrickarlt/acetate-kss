@@ -29,10 +29,6 @@
     "url": "https://github.com/paulcpederson/press-kss/issues"
   },
   "dependencies": {
-    "lodash": "~2.4.1",
-    "minimatch": "~0.3.0"
-  },
-  "devDependencies": {
     "kss": "^1.0.0"
   }
 }
