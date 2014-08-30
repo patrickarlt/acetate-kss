@@ -1,0 +1,10 @@
+# Mac
+.DS_Store
+Icon
+
+# SublimeText
+/*.sublime-project
+*.sublime-workspace
+
+# node
+node_modules
