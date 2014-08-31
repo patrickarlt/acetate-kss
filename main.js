@@ -1,8 +1,8 @@
 var kss = require('kss');
 
-module.exports = function (directory, options) {
+module.exports = function (options) {
   return function (press, callback){
-    kss.traverse(directory, options, function(err, styleguide) {
+    kss.traverse(options.sassDir, { markdown: options.markdown }, function(err, styleguide) {
       if (err) {
         throw err;
       }
