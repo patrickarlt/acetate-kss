@@ -1,5 +1,4 @@
 var fs = require('fs');
-var S = require('string');
 var nunjucks = require('nunjucks');
 var template;
 
@@ -27,8 +26,7 @@ function NunjucksStyleguide() {
     //section is the object of the kss information
     //body is the sample html
     var html = body();
-    var code = S(html).escapeHTML().s;
-    var res = template.render({ section: section, html: html, code: code });
+    var res = template.render({ section: section, html: html });
     return res;
   };
 }
