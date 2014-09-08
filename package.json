@@ -1,12 +1,12 @@
 {
-  "name": "press-kss",
-  "version": "0.0.0",
-  "description": "Parse KSS formatted sass documentation and add it to Press",
+  "name": "acetate-kss",
+  "version": "0.0.1",
+  "description": "Parse KSS formatted sass documentation and add it to Acetate",
   "private": true,
-  "homepage": "https://github.com/paulcpederson/press-kss",
+  "homepage": "https://github.com/paulcpederson/acetate-kss",
   "repository": {
     "type": "git",
-    "url": "git://github.com/paulcpederson/press-kss.git"
+    "url": "git://github.com/paulcpederson/acetate-kss.git"
   },
   "author": {
     "name": "Paul C Pederson",
@@ -22,7 +22,7 @@
   ],
   "license": "Apache 2.0",
   "bugs": {
-    "url": "https://github.com/paulcpederson/press-kss/issues"
+    "url": "https://github.com/paulcpederson/acetate-kss/issues"
   },
   "dependencies": {
     "kss": "^1.0.0",

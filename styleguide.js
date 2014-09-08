@@ -34,18 +34,18 @@ function NunjucksStyleguide() {
 }
 
 module.exports = function (options) {
-  return function (press, callback){
+  return function (acetate, callback){
 
     var templatePath = './styleguide.html';
     if (options.template) {
-      var templatePath = press.config.root + '/' + press.config.src + '/' + options.template;
+      var templatePath = process.cwd() + '/' + acetate.options.src + '/' + options.template;
     }
 
     var file = fs.readFileSync(templatePath).toString();
     template = new nunjucks.Template(file);
 
-    press.nunjucks.addExtension('styleguide', new NunjucksStyleguide());
-    callback(undefined, press);
+    acetate.nunjucks.addExtension('styleguide', new NunjucksStyleguide());
+    callback(undefined, acetate);
 
   };
 };
